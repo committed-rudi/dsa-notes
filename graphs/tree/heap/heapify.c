@@ -61,13 +61,13 @@ int main() {
     printf("No of elements in the array : " ); 
     scanf("%d", &n);
 
-    printf("Enter the elements : \n"); 
+    printf("Enter the elements : "); 
     for (int i = 0; i < n; i++){
         scanf("%d", &array[i]);
     }
 
     buildheap(array, n);        
-    printf("Heapified array is : \n");
+    printf("Heapified array is: \n");
     for (int i = 0; i < n; i++){
         printf("%d ", array[i]);
     }
